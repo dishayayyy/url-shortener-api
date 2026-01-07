@@ -1,23 +1,42 @@
-# URL Shortener API
+# 🔗 URL Shortener API
 
-A simple URL shortener backend built using Flask and SQLite.
+A lightweight and efficient URL shortener backend built with **Flask** and **SQLite**.  
+This API converts long URLs into short, shareable links and seamlessly redirects users to the original destination.
 
-## Features
-- Create short URLs
-- Redirect to original URLs
-- URL validation
-- Proper HTTP status codes
-- Persistent storage using SQLite
+---
 
-## Tech Stack
-- Python
-- Flask
-- SQLite
+## ✨ Features
 
-## API Endpoints
+- Generate short URLs from long links  
+- Redirect short URLs to the original destination  
+- URL format validation  
+- Proper HTTP status codes and error handling  
+- Persistent storage using SQLite  
+- Simple REST API design  
 
-### POST /shorten
-Creates a short URL.
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Flask  
+- SQLite  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.x  
+- pip  
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/url-shortener-api.git
+cd url-shortener-api
+pip install -r requirements.txt
+
 
 **Request**
 ```json
