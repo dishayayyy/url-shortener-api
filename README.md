@@ -5,7 +5,7 @@ This API converts long URLs into short, shareable links and seamlessly redirects
 
 ---
 
-## ✨ Features
+##  Features
 
 - Generate short URLs from long links  
 - Redirect short URLs to the original destination  
@@ -24,7 +24,7 @@ This API converts long URLs into short, shareable links and seamlessly redirects
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.x  
